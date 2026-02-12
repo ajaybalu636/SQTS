@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu - Brew Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+  <h1>Brew Haven Cafe</h1>
+</header>
+
+<section class="menu">
+
+  <div class="menu-item">
+    <img src="C:\Users\ajayk\Downloads\coffee.jpg">
+    <h3>Latte - $5</h3>
+    <button onclick="decrease(0)">-</button>
+    <span id="qty0">0</span>
+    <button onclick="increase(0,5)">+</button>
+  </div>
+
+  <div class="menu-item">
+    <img src="C:\Users\ajayk\Downloads\croissant.jpg">
+    <h3>Croissant - $4</h3>
+    <button onclick="decrease(1)">-</button>
+    <span id="qty1">0</span>
+    <button onclick="increase(1,4)">+</button>
+  </div>
+
+  <h2>Total: $<span id="total">0</span></h2>
+
+</section>
+
+<footer>
+  <p>© 2026 Brew Haven Cafe</p>
+</footer>
+
+</body>
+</html>

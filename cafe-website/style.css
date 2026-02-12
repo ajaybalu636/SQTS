@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #7ab42d;
+}
+
+.navbar {
+  background: #d1cfdc;
+  color: rgb(218, 30, 30);
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 10px;
+}
+
+.navbar a {
+  color: rgba(64, 10, 129, 0.329);
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.btn {
+  background: #c69c6d;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+
+.menu {
+  text-align: center;
+  padding: 40px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+}
+
+.menu img {
+  width: 200px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+  padding: 40px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background: #dc09ce;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar li {
+    display: block;
+  }
+}
